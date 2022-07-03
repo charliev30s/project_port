@@ -1,0 +1,55 @@
+
+
+body{
+    background-color:grey;
+  }
+  
+  .horizontal-scroll{
+   display: grid; 
+    grid-auto-flow:column;
+  
+  /*   grid-auto-columns:15%; */
+  /*  justify-content: center;
+    align-items: center; */
+    height: 180vh;
+    padding-left:10%;
+  width: 80%;
+    margin:auto;
+  overflow-x: auto;
+    background-color:tomato;
+  }
+  div{
+    display:flex;
+    height: 70vh;
+   width: 200px;
+    margin:auto;
+    
+    background-color:black;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size:2rem;
+  }
+  div:hover{
+   margin:5px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-size:1.8rem;
+  }
+  .pc1{
+     background-color:blue;
+  }
+  .pc2{
+     background-color:green;
+  }
+  .pc3{
+     background-color:red;
+  }
+  .pc4{
+     background-color:orange;
+  }
+  .pc5{
+     background-color:purple;
+  }
+  .pc6{
+     background-color:pink;
+  }
